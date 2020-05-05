@@ -5,3 +5,7 @@
 .prov {
     margin-top: 100px;
 }
+
+.icon i {
+    font-size: 3em !important;
+}
