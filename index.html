@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 | Indonesia</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="title">Data Covid 19 di Indonesia</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 text-center mb-2">
+                <div class="card bg-warning">
+                    <h4 class="card-header">Positif</h4>
+                    <div class="card-body">
+                        <h5 class="card-title" id="positif">0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 text-center mb-2">
+                <div class="card bg-success text-white">
+                    <h4 class="card-header">Sembuh</h4>
+                    <div class="card-body">
+                        <h5 class="card-title" id="sembuh">0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 text-center mb-2">
+                <div class="card bg-danger text-white">
+                    <h4 class="card-header">Meninggal</h4>
+                    <div class="card-body">
+                        <h5 class="card-title" id="meninggal">0</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row prov">
+            <h1>Data Provinsi</h1>
+            <div class="col-lg-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Provinsi</th>
+                            <th>Positif</th>
+                            <th>Sembuh</th>
+                            <th>Meninggal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data">
+                        
+                    </tbody>
+                    </div>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
