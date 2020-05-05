@@ -1,4 +1,5 @@
 function indo(url) {
+    $.ajaxSetup({ cache: false });
     $.ajax({
         type: 'GET',
         url: url,
@@ -21,6 +22,7 @@ function indo(url) {
 }
 
 function prov(url) {
+    $.ajaxSetup({ cache: false });
     $.ajax({
         type: 'GET',
         url: url,
