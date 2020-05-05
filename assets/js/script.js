@@ -61,4 +61,20 @@ function prov(url) {
 $(document).ready(function () {
     indo('https://api.kawalcorona.com/indonesia/');
     prov('https://api.kawalcorona.com/indonesia/provinsi/');
+
+    let date = new Date();
+    var month = new Array();
+    month[0] = "Januari";
+    month[1] = "Februari";
+    month[2] = "Maret";
+    month[3] = "April";
+    month[4] = "Mei";
+    month[5] = "Juni";
+    month[6] = "Juli";
+    month[7] = "Agustus";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    $('#date').html("Tanggal : " + date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear());
 });
